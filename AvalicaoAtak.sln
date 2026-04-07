@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvalicaoAtak", "AvalicaoAtak.csproj", "{AE185FA0-4CC1-482B-8658-1F8B900892BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvalicaoAtak.Tests", "..\AvalicaoAtak.Tests\AvalicaoAtak.Tests.csproj", "{AE5E519A-9D4E-43AD-A98B-7A54CBC46D49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE185FA0-4CC1-482B-8658-1F8B900892BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE185FA0-4CC1-482B-8658-1F8B900892BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE185FA0-4CC1-482B-8658-1F8B900892BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE185FA0-4CC1-482B-8658-1F8B900892BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE5E519A-9D4E-43AD-A98B-7A54CBC46D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE5E519A-9D4E-43AD-A98B-7A54CBC46D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE5E519A-9D4E-43AD-A98B-7A54CBC46D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE5E519A-9D4E-43AD-A98B-7A54CBC46D49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F904B05-B36E-4D31-A8A1-2E60BE19F39D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,30 @@
+﻿[
+  {
+    "Nome": "Celular da mae",
+    "Ip": "192.168.200.100"
+  },
+  {
+    "Nome": "Computador",
+    "Ip": "192.168.200.103"
+  },
+  {
+    "Nome": "Celular",
+    "Ip": "192.168.200.107"
+  },
+  {
+    "Nome": "Camera Teste",
+    "Ip": "192.168.200.102"
+  },
+  {
+    "Nome": "Google DNS",
+    "Ip": "8.8.8.8"
+  },
+  {
+    "Nome": "Cloudflare",
+    "Ip": "1.1.1.1"
+  },
+  {
+    "Nome": "Localhost",
+    "Ip": "127.0.0.1"
+  }
+]
