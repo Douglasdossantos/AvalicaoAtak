@@ -30,9 +30,11 @@ O erro é registrado em log
 ________________________
 
 Exemplo de Log Gerado
-2026-04-04 22:40:01 - Camera WiFi - ONLINE - 3ms
+2026-04-04 22:40:01 - Camera WiFi - ONLINE 
 2026-04-04 22:40:11 - Camera WiFi - OFFLINE
-2026-04-04 22:40:21 - Google DNS - ONLINE - 18ms
+2026-04-04 22:40:21 - Google DNS - ONLINE
+
+OBS: foi utilizado alguns Ip's coletados no meu Roteador e outro de uso geral para exemplificar como o do Cloudflare e google DNS para ter validado alguns que usam e outro que estão Offline 
 
 Os logs são armazenados em arquivos diários:
 
