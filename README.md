@@ -27,6 +27,8 @@ Em caso de erro:
 O sistema não para
 O erro é registrado em log
 
+________________________
+
 Exemplo de Log Gerado
 2026-04-04 22:40:01 - Camera WiFi - ONLINE - 3ms
 2026-04-04 22:40:11 - Camera WiFi - OFFLINE
@@ -34,8 +36,8 @@ Exemplo de Log Gerado
 
 Os logs são armazenados em arquivos diários:
 
-logs/log-2026-04-04.txt
-
+2026-04-04-log.txt
+__________________________________________
 Configuração
 appsettings.json
 
@@ -92,8 +94,10 @@ Autor
 
 Desenvolvido por Douglas Santos Costa
 
- Documantação de como foi usado a O chat GPT para orientar no desenvolvimento :
- preciso desenvolver uma aplicação em .net do tipo Windows Service ou Worker Service, onde deve rodar em segundo plano  com uma verificação periodica
+__________________________________________________________________________________________________________________________________________
+
+Documantação de como foi usado a O chat GPT para orientar no desenvolvimento :
+preciso desenvolver uma aplicação em .net do tipo Windows Service ou Worker Service, onde deve rodar em segundo plano  com uma verificação periodica
 
 Boa escolha — pra esse tipo de cenário hoje o mais recomendado é usar Worker Service em vez de Windows Service “raiz”. Ele já vem preparado pra rodar em background, com injeção de dependência, logging e agendamento simples.
 
